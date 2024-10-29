@@ -1,0 +1,69 @@
+{
+  "lists": [
+    {
+      "id": 0,
+      "name": "Omar",
+      "surname": "Qalabakiyev",
+      "age": 12,
+      "username": "CodeIsOmar",
+      "adress": "Baku",
+      "stack": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Omar1",
+      "surname": "Qalabakiyev",
+      "age": 12,
+      "username": "CodeIsOmar",
+      "adress": "Baku",
+      "stack": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Omar2",
+      "surname": "Qalabakiyev",
+      "age": 12,
+      "username": "CodeIsOmar",
+      "adress": "Baku",
+      "stack": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Omar3",
+      "surname": "Qalabakiyev",
+      "age": 12,
+      "username": "CodeIsOmar",
+      "adress": "Baku",
+      "stack": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Omar4",
+      "surname": "Qalabakiyev",
+      "age": 12,
+      "username": "CodeIsOmar",
+      "adress": "Baku",
+      "stack": [
+        "html",
+        "css",
+        "javascript"
+      ]
+    }
+  ]
+}
