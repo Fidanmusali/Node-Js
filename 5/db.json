@@ -1,0 +1,32 @@
+[
+  {
+    "id": "20",
+    "photo": "vfjigrni",
+    "name": "rjn"
+  },
+  {
+    "id": 110,
+    "photo": "https://m.media-amazon.com/images/M/MV5BMGMzZjdiNjEtMTMwMS00MTVkLTk0NWMtOGFjODY1MWRkNmVmXkEyXkFqcGc@._V1_.jpg",
+    "name": "The Movieswxe23rftgy"
+  },
+  {
+    "id": 0,
+    "photo": "https://resizing.flixster.com/gLnc5SzmOCyCJLnKMFJBQM2xAW4=/206x305/v2/https://resizing.flixster.com/NkIqUFGlPZwDqziUn_4x_zwRSy4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzE3ODE2OTQ0LWQyZWEtNDIxMi05NTQ1LTZkYWQ4OTdjZDdkZC5qcGc=",
+    "name": "Rotten Tomatoes: Movies"
+  },
+  {
+    "id": 2,
+    "photo": "https://filmfare.wwmindia.com/content/2024/oct/joker11727849847.jpg",
+    "name": "Joker"
+  },
+  {
+    "id": 3,
+    "photo": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00383474-meegdfjgax-portrait.jpg",
+    "name": "Venom"
+  },
+  {
+    "id": 4,
+    "photo": "https://timesofindia.indiatimes.com/thumb.cms?msid=96219578&width=200&height=281",
+    "name": "Avatar"
+  }
+]
