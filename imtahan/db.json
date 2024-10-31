@@ -1,0 +1,49 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "Eagle",
+      "kind": "Bird"
+    },
+    {
+      "id": 3,
+      "name": "Shark",
+      "kind": "Fish"
+    },
+    {
+      "id": 4,
+      "name": "Frog",
+      "kind": "Amphibian"
+    },
+    {
+      "id": 5,
+      "name": "Tortoise",
+      "kind": "Reptile"
+    },
+    {
+      "id": 6,
+      "name": "Dolphin",
+      "kind": "Mammal"
+    },
+    {
+      "id": 7,
+      "name": "Parrot",
+      "kind": "Bird"
+    },
+    {
+      "id": 8,
+      "name": "Salmon",
+      "kind": "Fish"
+    },
+    {
+      "id": 9,
+      "name": "Iguana",
+      "kind": "Reptile"
+    },
+    {
+      "id": 10,
+      "name": "Newt",
+      "kind": "Amphibian"
+    }
+  ]
+}
