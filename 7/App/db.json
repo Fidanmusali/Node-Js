@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Software Engineer",
+    "description": "Designs and develops software applications.",
+    "ranking": 7
+  },
+  {
+    "id": 2,
+    "name": "Data Scientist",
+    "description": "Analyzes complex data to help make business decisions.",
+    "ranking": 0
+  },
+  {
+    "id": 3,
+    "name": "Project Manager",
+    "description": "Oversees projects from start to finish, ensuring timelines and goals are met.",
+    "ranking": 0
+  },
+  {
+    "id": 4,
+    "name": "Graphic Designer",
+    "description": "Creates visual concepts to communicate ideas.",
+    "ranking": 0
+  },
+  {
+    "id": 5,
+    "name": "Marketing Specialist",
+    "description": "Develops and implements marketing strategies to promote products or services.",
+    "ranking": 0
+  },
+  {
+    "id": 6,
+    "name": "Accountant",
+    "description": "Handles financial records and ensures compliance with laws.",
+    "ranking": 1
+  },
+  {
+    "id": 7,
+    "name": "Human Resources Manager",
+    "description": "Manages recruitment, employee relations, and organizational culture.",
+    "ranking": 1
+  },
+  {
+    "id": 8,
+    "name": "Civil Engineer",
+    "description": "Designs and supervises construction projects such as buildings, roads, and bridges.",
+    "ranking": 0
+  },
+  {
+    "id": 9,
+    "name": "Teacher",
+    "description": "Educates students and facilitates learning.",
+    "ranking": 0
+  },
+  {
+    "id": 10,
+    "name": "Nurse",
+    "description": "Provides care to patients and supports doctors in medical facilities.",
+    "ranking": 0
+  }
+]
