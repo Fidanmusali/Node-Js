@@ -25,45 +25,34 @@ app.get('/books/:id', (req, res) => {
         res.send(data)
     })
 })
-app.put('/books/:id', (req, res) => {
-    const id = req.params.id;
-    bookModel.findByIdAndUpdate(id, { name: 'notes' })
-        .then(() => {
-            res.status(200).send(" updated");
+app.delete('/books/:id', (req, res) => {
+    const id = req.params.id
+    bookModel.findByIdAndDelete(id)
+        .then((bookres) => {
+            res.status(200).send({
+                isSucced: true,
+                message: "Books has been deleted successfully!",
+            }).catch((err) => {
+                res.status(404).send({
+                    isSucced: false,
+                    message: "not found!",
+                });
+            });
         })
-        .catch((err) => {
-            res.status(500).send(`${err.message}`);
-        });
-});
+})
 
 app.post("/createdBook", (req, res) => {
-    const data = {
-        name: "White Nights",
-        author: "F. Dosteyevski",
-        publishDate: '2024-04-11',
-        genre: "romantic",
-        price: 10,
-        currency: 'azn',
-    }
-    const data2 = {
-        name: "Crime and Punishment",
-        author: "F. Dostoyevski",
-        publishDate: "1866-01-01",
-        genre: "Philosophical",
-        price: 20,
-        currency: "USD",
-    }
-    const data3 = {
-        name: "The Brothers Karamazov",
-        author: "F. Dostoyevski",
-        publishDate: "1880-01-01",
-        genre: "Drama",
-        price: 15,
-        currency: "EUR",
-    }
+    // const data = {
+    //     name: "White Nights",
+    //     author: "F. Dosteyevski",
+    //     publishDate: '2024-04-11',
+    //     genre: "romantic",
+    //     price: 10,
+    //     currency: 'azn',
+    // }
+    const data = req.body;
     bookModel.create(data);
-    bookModel.create(data2);
-    bookModel.create(data3);
+
 
     res.send('data yaradildi')
 })
